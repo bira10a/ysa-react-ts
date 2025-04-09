@@ -6,7 +6,9 @@ const Loyout = () => {
     <div>
       <Header />
 
-      <Outlet />
+      <main>
+        <Outlet />
+      </main>
 
       <Footer />
     </div>
