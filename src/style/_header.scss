@@ -1,0 +1,32 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 20px 0;
+  z-index: 5;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__nav {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: 500;
+
+    ul {
+      display: flex;
+      gap: 25px;
+    }
+  }
+
+  &__connection {
+    position: absolute;
+    top: 140px;
+    right: 0;
+  }
+
+
+}

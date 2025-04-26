@@ -1,8 +1,7 @@
+import { Promo } from "../components/Promo/Promo"
 const Home = () => {
   return (
-    <div>
-      Home ble
-    </div>
+    <Promo />
   )
 }
 export{Home}
