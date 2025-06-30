@@ -1,17 +1,10 @@
 import { Outlet } from "react-router"
 import { Header } from "../Header/Header"
 import { Footer } from "../Footer/Footer";
-
-import { useContext } from "react";
-import { ThemeContext } from "../../theme/ThemeContext";
-
+import { useTheme } from "../../theme/useTheme";
 
 const Loyout = () => {
-  const {theme, setTheme} = useContext(ThemeContext);
-
-  const toggleTheme = (): void => {
-    setTheme(theme === Theme.DARK ? Theme.LIGHT : Theme.DARK)
-  }
+  const {theme, toggleTheme} = useTheme();
 
   return (
     <div className={`app ${theme}`} >
