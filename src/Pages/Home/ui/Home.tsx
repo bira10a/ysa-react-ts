@@ -1,4 +1,4 @@
-import { Promo } from "../../components/Promo/Promo"
+import { Promo } from "../../../components/Promo/Promo";
 const Home = () => {
   return (
     <Promo />

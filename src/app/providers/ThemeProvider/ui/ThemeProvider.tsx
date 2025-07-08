@@ -1,4 +1,4 @@
-import { Theme, ThemeContext } from "./ThemeContent";
+import { Theme, ThemeContext } from "../lib/ThemeContent";
 import { useMemo, useState } from "react";
 
 const ThemeProvider: React.FC = ({children}) => {

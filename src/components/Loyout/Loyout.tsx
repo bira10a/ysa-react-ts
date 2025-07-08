@@ -1,7 +1,7 @@
 import { Outlet } from "react-router"
 import { Header } from "../Header/Header"
 import { Footer } from "../Footer/Footer";
-import { useTheme } from "../../theme/useTheme";
+import { useTheme } from "../../app/providers/ThemeProvider";
 
 const Loyout = () => {
   const {theme, toggleTheme} = useTheme();
