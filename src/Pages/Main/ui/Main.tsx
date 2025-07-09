@@ -1,7 +1,7 @@
 import { Promo } from "../../../components/Promo/Promo";
-const Home = () => {
+const Main = () => {
   return (
     <Promo />
   )
 }
-export default Home;
+export default Main;
