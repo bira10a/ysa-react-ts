@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router";
 import { Suspense} from "react";
-import { Loyout } from "../../../../components/Loyout/Loyout";
+import { Loyout } from "../../../Loyout";
 import { routeConfig } from "../../../../shared/config/routeConfig/routeConfig";
 
 const AppRouter = () => {
