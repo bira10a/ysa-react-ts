@@ -1,6 +1,6 @@
 import { RouteProps } from "react-router"
-import { Main } from "../../../Pages/Main"
-import { Vacancy } from "../../../Pages/Vacancy"
+import { Main } from "../../../pages/Main"
+import { Vacancy } from "../../../pages/Vacancy"
 
 export  enum AppRoutes {
     MAIN = 'main',
