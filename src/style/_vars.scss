@@ -3,6 +3,11 @@ $accent: #75beff;
 $mainBgColor: #1f242d;
 $secondBgColor: #323945;
 
+:root {
+  --bg-color: rgb(254, 195, 195);
+  --primary-color: rgb(73, 193, 223);  
+}
+
 
 
 @mixin r($width) {
